@@ -11,7 +11,7 @@ module.exports= function(instanceConfig, projectConfig) {
     });
     
     http.listen(5000, function(){
-      console.log('Scoket.io listening on port 5000 (which gets mapped to /websocket');
+      console.log('Socket.io listening on port 5000 (which gets mapped to /websocket');
     });
 
     return {server:http};
