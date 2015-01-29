@@ -10,8 +10,8 @@ module.exports= function(instanceConfig, projectConfig) {
       });
     });
     
-    http.listen(8080, function(){
-      console.log('listening on 8080');
+    http.listen(5000, function(){
+      console.log('Scoket.io listening on port 5000 (which gets mapped to /websocket');
     });
 
     return {server:http};
